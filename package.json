@@ -1,0 +1,14 @@
+{
+  "name": "cgull-family",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "python3 -m http.server 8000",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

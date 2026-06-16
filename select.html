@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Choose which of your children you'd like to see in the C-GULL Family app." />
+<title>Choose a child — C-GULL Family</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="C-GULL Family home">
+    <img src="imgs/c-gull-logo@2x.png" alt="C-GULL Study Family App" class="brand-logo" width="244" height="92" />
+  </a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="index.html#privacy">Privacy</a>
+    <a href="https://www.cgullstudy.com/" rel="noreferrer">About the study</a>
+  </nav>
+</header>
+
+<main id="main" class="picker-page">
+
+  <section class="picker-intro">
+    <p class="eyebrow">Welcome back, Sam</p>
+    <h1>Who would you like to see?</h1>
+    <p class="lede">You're enrolled in C-GULL with twins. Each hub shows what's been collected for that child — and your shared pregnancy details appear in both.</p>
+    <p class="picker-hint"><a href="index.html#see-data">What kind of data will I see?</a></p>
+  </section>
+
+  <section class="picker" aria-label="Choose a child">
+    <ul class="child-list" data-testid="child-picker">
+
+      <li class="child-card" data-testid="child-option" data-child-id="olivia">
+        <div class="child-head">
+          <div class="avatar avatar-teal" aria-hidden="true">O</div>
+          <div>
+            <h2>Olivia</h2>
+            <p class="child-born">Born 12 May 2025 · 04:18</p>
+          </div>
+        </div>
+        <p class="child-order">
+          <span class="pill pill-teal">Twin · born first</span>
+        </p>
+        <ul class="child-summary">
+          <li><span class="count">3</span> new updates waiting</li>
+          <li><span class="count">1</span> follow-up coming soon</li>
+          <li><span class="count">2</span> sub-studies to consider</li>
+        </ul>
+        <a href="olivia.html" class="btn btn-primary card-cta">
+          Open Olivia's hub
+          <svg viewBox="0 0 20 20" aria-hidden="true" class="cta-arrow"><path d="M4 10 H15 M11 6 L15 10 L11 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </li>
+
+      <li class="child-card" data-testid="child-option" data-child-id="theo">
+        <div class="child-head">
+          <div class="avatar avatar-coral" aria-hidden="true">T</div>
+          <div>
+            <h2>Theo</h2>
+            <p class="child-born">Born 12 May 2025 · 04:22</p>
+          </div>
+        </div>
+        <p class="child-order">
+          <span class="pill pill-coral">Twin · 4 minutes later</span>
+        </p>
+        <ul class="child-summary">
+          <li><span class="count">2</span> new updates waiting</li>
+          <li><span class="count">0</span> follow-ups due</li>
+          <li><span class="count">2</span> sub-studies to consider</li>
+        </ul>
+        <a href="#" class="btn btn-primary card-cta">
+          Open Theo's hub
+          <svg viewBox="0 0 20 20" aria-hidden="true" class="cta-arrow"><path d="M4 10 H15 M11 6 L15 10 L11 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </li>
+
+    </ul>
+
+    <aside class="shared-note" role="note">
+      <svg viewBox="0 0 24 24" class="shared-ico" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" />
+        <path d="M12 8 v0.01 M12 11 v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </svg>
+      <p><strong>Pregnancy details are shared.</strong> Information collected during pregnancy — scans, midwife visits, blood tests — appears in both Olivia's and Theo's hubs.</p>
+    </aside>
+
+    <p class="picker-back">
+      <a href="index.html">← Back to the welcome page</a>
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="imgs/c-gull-logo@2x.png" alt="C-GULL Study Family App" class="brand-logo" width="244" height="92" />
+      <p>C-GULL Family is a companion app for families taking part in the C-GULL birth cohort study.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="https://www.cgullstudy.com/" rel="noreferrer">The C-GULL Study</a>
+      <a href="index.html#privacy">Privacy</a>
+      <a href="#">Help &amp; contact</a>
+    </nav>
+  </div>
+  <p class="footer-fine">Prototype. Not for clinical use.</p>
+</footer>
+
+</body>
+</html>

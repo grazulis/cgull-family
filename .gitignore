@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+
+# Claude session state (project-local)
+.claude/
