@@ -20,6 +20,7 @@ This is a protoype project to be designed in HTML but scalable for viewing easil
 ├── olivia.html             ← per-child hub (sample)
 ├── news.html               ← "Stay in the loop" updates
 ├── next.html               ← "Know what's next" — upcoming milestones
+├── join.html               ← "Choose what to join" — open sub-studies
 ├── style.css               ← all styling
 ├── app.js                  ← shared interactions (report-an-error dialog, etc.)
 ├── imgs/                   ← logo and any image assets
