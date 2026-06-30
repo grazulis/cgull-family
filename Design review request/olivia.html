@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Olivia's hub — see her latest data, vaccinations, and Red Book summary." />
+<title>Olivia's hub — C-GULL Family</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="C-GULL Family home">
+    <img src="imgs/c-gull-logo@2x.png" alt="C-GULL Study Family App" class="brand-logo" width="244" height="92" />
+  </a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="select.html">Switch child</a>
+    <a href="index.html#privacy">Privacy</a>
+    <a href="https://www.cgullstudy.com/" rel="noreferrer">About the study</a>
+  </nav>
+</header>
+
+<main id="main" class="hub" data-testid="data-view">
+
+  <header class="hub-head">
+    <div class="hub-id">
+      <div class="avatar avatar-teal" aria-hidden="true">O</div>
+      <div>
+        <h1>Olivia</h1>
+        <p class="hub-id-meta">13 months &middot; born 12 May 2025 &middot; <span class="muted">twin, born first</span></p>
+      </div>
+    </div>
+    <a href="select.html" class="hub-switch">Switch child</a>
+  </header>
+
+  <nav class="hub-tabs" aria-label="Sections of Olivia's hub">
+    <a href="#" class="hub-tab is-active" aria-current="page">Overview</a>
+    <a href="#" class="hub-tab">Updates <span class="tab-badge">3</span></a>
+    <a href="#" class="hub-tab">What's next <span class="tab-badge tab-badge-coral">1</span></a>
+    <a href="#" class="hub-tab">Sub-studies</a>
+  </nav>
+
+  <nav class="jump-nav" aria-label="Jump to">
+    <span>Jump to</span>
+    <a href="#growth">Growth</a>
+    <a href="#vaccinations">Vaccinations</a>
+    <a href="#redbook">Red Book</a>
+  </nav>
+
+  <section class="hub-section" id="growth" aria-labelledby="growth-h">
+    <header class="hub-section-head">
+      <h2 id="growth-h">Growth</h2>
+      <p class="hub-section-note">Last measured 8 days ago</p>
+    </header>
+    <dl class="data-list">
+      <div class="data-row">
+        <dt>At birth</dt>
+        <dd>
+          <strong>2.60&nbsp;kg</strong> &middot; 47&nbsp;cm long &middot; born at 37 weeks
+        </dd>
+      </div>
+      <div class="data-row">
+        <dt>Now</dt>
+        <dd>
+          <strong>9.1&nbsp;kg</strong> &middot; 75&nbsp;cm long &middot; head 46&nbsp;cm
+          <span class="data-tag">50th centile across the board</span>
+        </dd>
+      </div>
+    </dl>
+    <p class="section-flag">
+      <button type="button" class="flag-link" data-flag-context="Growth measurements">Flag a measurement</button>
+    </p>
+  </section>
+
+  <section class="hub-section" id="vaccinations" aria-labelledby="vacc-h">
+    <header class="hub-section-head">
+      <h2 id="vacc-h">Vaccinations</h2>
+      <span class="status-pill status-good">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8 L7 12 L13 4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        All caught up
+      </span>
+    </header>
+
+    <ol class="vacc-table">
+      <li>
+        <div class="vacc-time"><strong>8 weeks</strong><span>7 Jul 2025</span></div>
+        <div class="vacc-text">6-in-1 &middot; Rotavirus &middot; MenB</div>
+        <div class="vacc-mark mark-done" aria-label="Given">✓</div>
+      </li>
+      <li>
+        <div class="vacc-time"><strong>12 weeks</strong><span>4 Aug 2025</span></div>
+        <div class="vacc-text">6-in-1 &middot; Pneumococcal (PCV) &middot; Rotavirus</div>
+        <div class="vacc-mark mark-done" aria-label="Given">✓</div>
+      </li>
+      <li>
+        <div class="vacc-time"><strong>16 weeks</strong><span>1 Sep 2025</span></div>
+        <div class="vacc-text">6-in-1 &middot; MenB</div>
+        <div class="vacc-mark mark-done" aria-label="Given">✓</div>
+      </li>
+      <li class="vacc-recent">
+        <div class="vacc-time"><strong>1 year</strong><span>22 May 2026</span></div>
+        <div class="vacc-text">
+          Hib/MenC &middot; MMR (1st) &middot; PCV booster &middot; MenB booster
+          <span class="vacc-detail">Recorded 3 weeks ago at Withington Health Centre</span>
+        </div>
+        <div class="vacc-mark mark-done" aria-label="Given">✓</div>
+      </li>
+      <li class="vacc-next">
+        <div class="vacc-time"><strong>3 y 4 m</strong><span>around Sep 2028</span></div>
+        <div class="vacc-text">
+          4-in-1 pre-school booster &middot; MMR (2nd)
+          <span class="vacc-detail">You'll get a reminder closer to the time</span>
+        </div>
+        <div class="vacc-mark mark-soon" aria-label="Upcoming">→</div>
+      </li>
+    </ol>
+
+    <p class="hub-section-foot">
+      Annual flu nasal spray is offered each autumn from age 2.
+      <a href="https://www.nhs.uk/vaccinations/nhs-vaccinations-and-when-to-have-them/" rel="noreferrer">Full NHS schedule</a>.
+    </p>
+    <p class="section-flag">
+      <button type="button" class="flag-link" data-flag-context="Vaccinations">Flag a vaccination</button>
+    </p>
+  </section>
+
+  <section class="hub-section" id="redbook" aria-labelledby="redbook-h">
+    <header class="hub-section-head">
+      <h2 id="redbook-h">Red Book summary</h2>
+      <span class="hub-section-note">Personal Child Health Record</span>
+    </header>
+
+    <h3 class="rb-group">Newborn screening</h3>
+    <dl class="data-list">
+      <div class="data-row">
+        <dt>Blood spot</dt>
+        <dd>17 May 2025 <span class="data-tag tag-soft">all 9 conditions clear</span></dd>
+      </div>
+      <div class="data-row">
+        <dt>Hearing</dt>
+        <dd>14 May 2025 <span class="data-tag tag-soft">clear, both ears</span></dd>
+      </div>
+      <div class="data-row">
+        <dt>Physical (NIPE)</dt>
+        <dd>14 May &amp; 24 Jun 2025 <span class="data-tag tag-soft">no concerns</span></dd>
+      </div>
+    </dl>
+
+    <h3 class="rb-group">Health visitor reviews</h3>
+    <dl class="data-list">
+      <div class="data-row">
+        <dt>New birth visit</dt>
+        <dd>25 May 2025</dd>
+      </div>
+      <div class="data-row">
+        <dt>6–8 week</dt>
+        <dd>2 Jul 2025</dd>
+      </div>
+      <div class="data-row">
+        <dt>1 year</dt>
+        <dd>14 May 2026 <span class="data-tag tag-soft">all milestones met</span></dd>
+      </div>
+      <div class="data-row data-row-soon">
+        <dt>2–2½ year</dt>
+        <dd>expected around Nov 2027</dd>
+      </div>
+    </dl>
+
+    <h3 class="rb-group">Other notes</h3>
+    <dl class="data-list">
+      <div class="data-row">
+        <dt>Vitamin K</dt>
+        <dd>given at birth</dd>
+      </div>
+      <div class="data-row data-row-muted">
+        <dt>Vitamin D</dt>
+        <dd>daily supplement recommended for under-5s</dd>
+      </div>
+      <div class="data-row data-row-muted">
+        <dt>Dental check</dt>
+        <dd>first visit once teeth appear</dd>
+      </div>
+      <div class="data-row data-row-muted">
+        <dt>Vision screening</dt>
+        <dd>offered at 4–5 years (reception year)</dd>
+      </div>
+    </dl>
+
+    <p class="hub-section-foot">
+      Your paper Red Book is still the master copy. This shows what your health visitor and GP have shared with the study.
+    </p>
+    <p class="section-flag">
+      <button type="button" class="flag-link" data-flag-context="Red Book summary">Flag a Red Book item</button>
+    </p>
+  </section>
+
+  <dialog id="flag-dialog" class="flag-dialog" aria-labelledby="flag-title">
+    <form class="flag-form" id="flag-form">
+      <header class="flag-head">
+        <h2 id="flag-title">Tell us what's not right</h2>
+        <button type="button" class="flag-x" data-flag-close aria-label="Close dialog">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5 L15 15 M15 5 L5 15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+      <p class="flag-about">About: <strong data-flag-context-out>this information</strong></p>
+
+      <label class="flag-field">
+        <span>What's the issue?</span>
+        <select name="issue" required>
+          <option value="">Choose one…</option>
+          <option>The date is wrong</option>
+          <option>The information is wrong</option>
+          <option>This didn't happen</option>
+          <option>Something is missing</option>
+          <option>Something else</option>
+        </select>
+      </label>
+
+      <label class="flag-field">
+        <span>Can you tell us a bit more? <em>(optional)</em></span>
+        <textarea name="detail" rows="4" placeholder="A few words about what you noticed."></textarea>
+      </label>
+
+      <p class="flag-privacy">We pass this to the C-GULL study team. Nothing is changed in your NHS record from here — your GP or health visitor will be your point of contact for that.</p>
+
+      <footer class="flag-foot">
+        <button type="button" class="btn btn-ghost" data-flag-close>Cancel</button>
+        <button type="submit" class="btn btn-primary">Send to study team</button>
+      </footer>
+    </form>
+
+    <div class="flag-thanks" hidden>
+      <h2>Thanks for letting us know.</h2>
+      <p>The C-GULL team will take a look. If they need more details, they'll be in touch through your usual study contact.</p>
+      <button type="button" class="btn btn-primary" data-flag-close>Close</button>
+    </div>
+  </dialog>
+
+  <p class="hub-back">
+    <a href="select.html">← Switch to Theo's hub</a>
+  </p>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="imgs/c-gull-logo@2x.png" alt="C-GULL Study Family App" class="brand-logo" width="244" height="92" />
+      <p>C-GULL Family is a companion app for families taking part in the C-GULL birth cohort study.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="https://www.cgullstudy.com/" rel="noreferrer">The C-GULL Study</a>
+      <a href="index.html#privacy">Privacy</a>
+      <a href="#">Help &amp; contact</a>
+    </nav>
+  </div>
+  <p class="footer-fine">Prototype. Not for clinical use.</p>
+</footer>
+
+<nav class="tabbar" aria-label="Sections">
+  <a class="tab" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11 L12 4 L20 11"/><path d="M6 10 V20 H18 V10"/></svg>Home</a>
+  <a class="tab" href="select.html" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="9" r="3"/><path d="M3 20 c0-3 3-5 6-5 s6 2 6 5"/><path d="M16 7 a2.5 2.5 0 0 1 0 5"/><path d="M17 15 c2 .4 4 2 4 5"/></svg>Children</a>
+  <a class="tab" href="news.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M7 10 h7 M7 14 h7" stroke-linecap="round"/></svg>Updates</a>
+  <a class="tab" href="next.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 9 a5 5 0 0 1 10 0 v5 l1.5 3 h-13 l1.5 -3 z"/><path d="M10 20 a2 2 0 0 0 4 0" stroke-linecap="round"/></svg>Next</a>
+  <a class="tab" href="join.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="9" r="3"/><path d="M16 8 a2.5 2.5 0 0 1 0 5"/><path d="M4 20 c0-3 2-5 5-5 s5 2 5 5"/><path d="M15 19 c.3-2 1.6-4 4-4"/></svg>Join</a>
+</nav>
+
+
+<script src="app.js" defer></script>
+</body>
+</html>
